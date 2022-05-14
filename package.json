@@ -1,0 +1,32 @@
+{
+  "name": "@alexanevsky/editorjs-anchor",
+  "version": "1.0.0",
+  "keywords": [
+    "anchor",
+    "codex editor",
+    "editor.js",
+    "editorjs",
+    "alexanevsky"
+  ],
+  "description": "Anchor Tool for Editor.js",
+  "license": "MIT",
+  "repository": "https://github.com/alexanevsky/editorjs-anchor",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "watch": "webpack --mode development --watch"
+  },
+  "author": {
+    "name": "Alexander Lashchevsky",
+    "email": "alexander@lashchevsky.me"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "babel-loader": "^8.2.5",
+    "raw-loader": "^4.0.2",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.2.3"
+  }
+}
